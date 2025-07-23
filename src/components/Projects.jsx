@@ -3,6 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div id='project' className='min-h-screen w-full flex flex-col items-center justrify-center gap-20 p-10 md:p-16 xl:px-32'>
+      <div id='projects' className='min-h-screen w-full flex flex-col items-center justrify-center gap-20 p-10 md:p-16 xl:px-32'>
       <h1 className='text-center text-5xl font-light'>Projects</h1>
 
 
@@ -42,6 +43,7 @@ const Projects = () => {
           <h1 className='text-3xl font-semibold'>Project</h1>
           <h3 className='text-xl text-gray-700'>Tech Stack</h3>
           <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum ea repellat accusantium mollitia, debitis asperiores ad qua.</p>
+        </div>
         </div>
       </div>
 
